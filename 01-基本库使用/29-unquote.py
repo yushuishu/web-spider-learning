@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/15 9:10
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-15 09:10
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 """
 unquote(): 可以将使用 quote() 方法对 URL 编码后的结果进行还原

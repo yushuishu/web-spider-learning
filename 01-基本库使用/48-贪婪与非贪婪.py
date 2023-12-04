@@ -1,14 +1,17 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/2/1 11:04
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-02-01 11:04
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 import re
 
 print('===========贪婪匹配===========')
 # 贪婪匹配
 # .* 会匹配尽可能多的字符、正则表达式中 .* 后面的 \d+ 、也就是至少一个数字、并没有指定多少数字
-# 结果就会留给 \d+ 一个数字 7
+# 结果调用就会留给 (\d+) 一个数字 7
 '''
 <_sre.SRE_Match object; span=(0, 40), match='Hello 1234567 World_This is a Regex Demo'>
 7

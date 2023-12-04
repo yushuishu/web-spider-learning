@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/2/5 10:23
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-02-05 10:23
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 from lxml import etree
 

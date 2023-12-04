@@ -1,7 +1,11 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/5 16:02
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-05 16:02
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
+
 
 from urllib.request import HTTPPasswordMgrWithDefaultRealm, HTTPBasicAuthHandler, build_opener
 from urllib.error import URLError

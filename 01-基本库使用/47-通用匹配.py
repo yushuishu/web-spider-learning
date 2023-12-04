@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/2/1 10:50
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-02-01 10:50
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 import re
 

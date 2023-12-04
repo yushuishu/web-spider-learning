@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/5 16:55
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-05 16:55
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 import http.cookiejar
 import urllib.request

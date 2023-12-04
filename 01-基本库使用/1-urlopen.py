@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-05 09:45
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
+
 import urllib.request
 
 # urlopen参数：urlopen(url, data=None, [timeout,]*, cafile=None, capath=None, cadefault=False, context=None)

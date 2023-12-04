@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/14 13:48
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-14 13:48
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 """
 urljoin(): 提供了一个base_url (基础链接) 作为第一个参数，将新的链接作为第二个参数
@@ -24,13 +27,21 @@ base_url 提供了三项内容，如果这3项在新的链接里不存在，就�
 
 from urllib.parse import urljoin
 
+# https://www.baidu.com/FAQ.html
 print(urljoin('https://www.baidu.com', 'FAQ.html'))
+# https://cuiqingcai.com/FAQ.html
 print(urljoin('https://www.baidu.com', 'https://cuiqingcai.com/FAQ.html'))
+# https://cuiqingcai.com/FAQ.html
 print(urljoin('https://www.baidu.com/about.html', 'https://cuiqingcai.com/FAQ.html'))
+# https://cuiqingcai.com/FAQ.html?question=2
 print(urljoin('https://www.baidu.com/about,html', 'https://cuiqingcai.com/FAQ.html?question=2'))
+# https://cuiqingcai.com/index.php
 print(urljoin('https://www.baidu.com?wd=abc', 'https://cuiqingcai.com/index.php'))
+# https://www.baidu.com?category=2#comment
 print(urljoin('https://www.baidu.com', '?category=2#comment'))
+# www.baidu.com?category=2#comment
 print(urljoin('www.baidu.com', '?category=2#comment'))
+# www.baidu.com?category=2
 print(urljoin('www.baidu.com#comment', '?category=2'))
 
 

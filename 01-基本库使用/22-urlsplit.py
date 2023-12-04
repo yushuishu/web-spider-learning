@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/14 13:21
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-14 13:21
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 """
 urlsplit(): 和 urlparse() 方法相似，只不过不能单独解析 params 这一部分

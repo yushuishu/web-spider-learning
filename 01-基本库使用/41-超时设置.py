@@ -5,3 +5,8 @@
 @IDE  ：PyCharm
 @Motto：ABC(Always Be Coding)
 """
+import requests
+
+# 设置超时时间为 2秒
+response = requests.get("https://www.httpbin.org/get", timeout=2)
+print(response.status_code)

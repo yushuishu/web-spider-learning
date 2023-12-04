@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/15 17:00
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-15 17:00
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 import requests
 

@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-05 11:23
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
+
 from urllib import request, parse
 
 # 添加构造请求 设置data  headers  method

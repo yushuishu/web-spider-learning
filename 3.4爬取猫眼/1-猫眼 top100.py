@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/2/2 17:53
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-02-02 17:53
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 import json
 import requests
@@ -47,6 +50,7 @@ def write_to_file(content):
 
 def main(offset):
     url = 'http://maoyan.com/board/4?offset=' + str(offset)
+    # 当前猫眼已经加入了验证码逻辑，需要进行处理
     html = get_one_page(url)
     for item in parse_one_page(html):
         print(item)

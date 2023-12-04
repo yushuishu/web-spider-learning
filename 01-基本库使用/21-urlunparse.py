@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/14 13:13
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-14 13:13
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 """
 urlunparse(): 有了urlparse()，相应的就有了它的对立方法 urlunparse()。

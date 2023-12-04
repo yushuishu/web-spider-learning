@@ -5,3 +5,9 @@
 @IDE  ：PyCharm
 @Motto：ABC(Always Be Coding)
 """
+
+import requests
+
+files = {"files": open("35-favicon.icon", "rb")}
+response = requests.post("https://www.httpbin.org/post", files=files)
+print(response.text)

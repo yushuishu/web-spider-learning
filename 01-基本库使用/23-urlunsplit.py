@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/14 13:41
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-14 13:41
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 """
 urlunsplit(): 与 urlunparse() 方法类型，也是将链接各个部分组合成完整链接的方法

@@ -1,7 +1,10 @@
-# -------------------------------
-# @Author : 谁书-ss
-# @Time   : 2020/1/5 15:10
-# -------------------------------
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-05 15:10
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
 
 # urllib.request模块里的BaseHandler类，它是所有的其他 Handler 的父类，它提供最基础的方法
 # 如：default——open() protocol_request()

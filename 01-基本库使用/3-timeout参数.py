@@ -1,3 +1,11 @@
+# -*- coding: utf-8 -*-
+"""
+@Time ：2020-01-05 10:04
+@Auth ：谁书-ss
+@IDE  ：PyCharm
+@Motto：ABC(Always Be Coding)
+"""
+
 import urllib.request
 
 # timeout参数用于超时时间 单位：秒
