@@ -30,7 +30,7 @@ print(result.decode('utf-8'))
 
 print('====================================================================')
 # 也可以直接读取文本文件进行解析
-html1 = etree.parse('./1-test.html', etree.HTMLParser())
+html1 = etree.parse('./01-test.html', etree.HTMLParser())
 result1 = etree.tostring(html1)
 print(result1.decode('utf-8'))
 
