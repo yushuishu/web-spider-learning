@@ -4,12 +4,12 @@
 @Auth ：谁书-ss
 @IDE  ：PyCharm
 @Motto：ABC(Always Be Coding)
+@Description ：
 """
 
 from lxml import etree
 
 # 如果想要获取 li 节点内部文本、一种是选取 a 节点再获取文本、另一种就是使用 //
-
 html = etree.parse('./01-test.html', etree.HTMLParser())
 result = html.xpath('//li[@class="item-0"]/a/text()')
 result2 = html.xpath('//li[@class="item-0"]//text()')
